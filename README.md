@@ -19,6 +19,13 @@ The repo provides as a starting point to stream tweet with kafka streaming
     pip install python-twitter
     pip install tweepy
     ``` 
+- Set the environment variable from your twitter account authorize it to access twitter
+    ```shell script
+    export TWEET_ACCESS_TOKEN = <access token>
+    export TWEET_ACCESS_SECRET = <access secret token>
+    export TWEET_CONSUMER_KEY = <consumer key/ API key>
+    export TWEET_CONSUMER_SECRET = <consumer secret / API access secret token >
+    ```
 - Run the starter file to collect your streaming data
     ```shell script
     python tweeter_starter.py
