@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f820e778-f4da-45df-b641-3209bf763c78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_consumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kafka-stream-tweets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kafka-stream-tweets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweeter_starter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweeter_starter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka_consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_consumer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598669956979</updated>
-      <workItem from="1598669958496" duration="3156000" />
+      <workItem from="1598669958496" duration="3448000" />
     </task>
     <servers />
   </component>

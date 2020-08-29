@@ -1,6 +1,6 @@
 from kafka import KafkaConsumer
 import json
-import pdb
+
 
 
 if __name__ == '__main__':
@@ -14,6 +14,4 @@ if __name__ == '__main__':
 
     for message in consumer:
         message = message.value
-        pdb.set_trace()
         print(message)
-        # break
