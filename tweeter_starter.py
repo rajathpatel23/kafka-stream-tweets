@@ -12,7 +12,8 @@ consumer_secret = os.environ.get("TWEET_CONSUMER_SECRET")
 
 class StdOutListener(StreamListener):
     def on_data(self, data):
-        producer.send("msdhoni", data.encode('utf-8'))
+        a = producer.send("neurallink", data.encode('utf-8'))
+        print(a)
         return True
     def on_error(self, status):
         print (status)
@@ -24,4 +25,4 @@ if __name__ == '__main__':
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     stream = Stream(auth, l)
-    stream.filter(track="msdhoni")
+    stream.filter(track="neurallink")
